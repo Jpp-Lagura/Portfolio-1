@@ -490,9 +490,14 @@ a.row:hover {
     margin-bottom: 20px;
 }
 
-.gallery-container h2 i {
+.gallery-icon {
     width: 19px;
     height: 19px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
     color: var(--muted);
 }
 
