@@ -180,6 +180,7 @@ img {
     gap: 28px;
     align-items: center;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .hero img {
@@ -695,7 +696,12 @@ a.row:hover {
 
     .hero-inner {
         flex-direction: column;
+        align-items: center;
         text-align: center;
+    }
+
+    .hero-inner > div {
+        max-width: 100%;
     }
 
     .hero h1 {
