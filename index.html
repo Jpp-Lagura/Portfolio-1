@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>John Paul C. Lagura — Portfolio</title>
+  <meta name="description" content="Portfolio of John Paul C. Lagura, a BSIT student and aspiring web developer from Butuan City, Philippines.">
+  <meta name="theme-color" content="#f7f7f8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="header">
+    <div class="container header-in">
+      <a href="#home" class="logo"><b>Jpp.</b><span>Personal Portfolio</span></a>
+
+      <nav id="nav" class="nav" aria-label="Main"></nav>
+
+      <div class="header-actions">
+        <button id="theme" class="icon-btn" aria-label="Toggle dark mode">☾</button>
+        <button id="menu" class="icon-btn menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section id="home" class="hero reveal" aria-label="Introduction">
+      <div id="hero" class="hero-inner"></div>
+    </section>
+
+    <div class="two-col">
+      <section id="about" class="card reveal">
+        <h2>About Me</h2>
+        <div id="about-text"></div>
+      </section>
+
+      <section id="skills" class="card reveal">
+        <h2>Skills</h2>
+        <ul id="skills-list" class="skill-list"></ul>
+      </section>
+    </div>
+
+    <section id="projects" class="card reveal">
+      <h2>Projects</h2>
+      <div id="project-grid" class="project-grid"></div>
+    </section>
+
+    <section id="education" class="card reveal">
+      <h2>Education</h2>
+      <div id="education-list"></div>
+    </section>
+
+    <section id="contact" class="card reveal">
+      <h2>Contact</h2>
+      <div id="contact-body"></div>
+    </section>
+
+
+    <section class="gallery-container reveal" id="gallery-section">
+    <h2><i data-lucide="images"></i>Gallery</h2>
+
+    <div class="gallery-viewport">
+        <div class="gallery-track" id="gallery">
+          
+      
+        </div>
+    </div>
+</section>
+    
+  </main>
+
+  <footer class="footer">
+    <p id="foot"></p>
+  </footer>
+
+  <button id="top-btn" class="top-btn" aria-label="Back to top">↑</button>
+</body>
+</html>

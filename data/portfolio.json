@@ -1,0 +1,74 @@
+{
+  "nav": [
+    { "label": "Home", "target": "home" },
+    { "label": "About Me", "target": "about" },
+    { "label": "Skills", "target": "skills" },
+    { "label": "Projects", "target": "projects" },
+    { "label": "Education", "target": "education" },
+    { "label": "Contact", "target": "contact" }
+  ],
+  "hero": {
+    "name": "John Paul C. Lagura",
+    "title": "BSIT Student / Aspiring Web Developer",
+    "location": "Butuan City, Philippines",
+    "description": "Learning, building, and growing one project at a time.",
+    "photo": "css/images/profile-removebg.png"
+  },
+  "about": [
+    "I'm a 3rd-year BSIT student with a curiosity for how technology can make everyday life a little better.",
+    "I enjoy building for the web and mobile, turning ideas into simple, thoughtful experiences while learning something new along the way.",
+    "I'm currently learning web development by building websites and hands-on projects, while continuously improving my skills. I'm eager to gain real-world experience, contribute to projects, and grow as a developer."
+  ],
+  "skills": [
+    "Problem Solving",
+    "Communication Skills",
+    "Fast Learner",
+    "Adaptable",
+    "Creative"
+  ],
+  "projects": [
+    {
+      "title": "Turnly - Assignment Submission Tracker",
+      "description": "A web application for students and instructors to manage assignments, submissions, and grading.",
+      "tags": ["Vue.js", "NestJS", "PostgreSQL"],
+      "github": "https://github.com/your-username/assignment-tracker",
+      "demo": ""
+    },
+    {
+      "title": "Portfolio Website",
+      "description": "Personal portfolio showcasing my projects, skills, and experience.",
+      "tags": ["HTML", "CSS", "JavaScript"],
+      "github": "https://github.com/your-username/portfolio",
+      "demo": "https://your-username.github.io/portfolio"
+    }
+  ],
+  "education": [
+    {
+      "label": "Current",
+      "title": "Bachelor of Science in Information Technology",
+      "org": "Caraga State University",
+      "period": "2024 – Present",
+      "points": [
+        "Building web applications and academic projects.",
+        "Learning modern frontend and backend technologies."
+      ]
+    }
+  ],
+  "contact": {
+    "cta": "Have a project or opportunity? Let's connect.",
+    "email": "johnlagura2012@gmail.com",
+    "links": [
+      { "name": "Facebook", "url": "https://www.facebook.com/johnlagura15" },
+      { "name": "GitHub", "url": "https://github.com/Jpp-Lagura" },
+      { "name": "LinkedIn", "url": "https://www.linkedin.com/in/john-paul-lagura-870285441/" }
+     
+    ]
+  },
+   "gallery": [
+    { "src": "css/images/pose1.jpg", "alt": "Photo 1" },
+    { "src": "css/images/pose2.jpg", "alt": "Photo 2" },
+    { "src": "css/images/pose3.jpg", "alt": "Photo 3" },
+    { "src": "css/images/pose4.jpg", "alt": "Photo 4" },
+    { "src": "css/images/pose5.jpg", "alt": "Photo 5" }
+  ]
+}
