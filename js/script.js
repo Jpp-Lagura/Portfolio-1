@@ -5,7 +5,7 @@ const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
 }[c]));
 
-/* ---------- Renderers ---------- */
+// Build the content from the portfolio data
 function renderNav(items) {
     $("#nav").innerHTML = (items || [])
         .map(n => `<a href="#${esc(n.target)}">${esc(n.label)}</a>`)
@@ -26,7 +26,7 @@ function renderHero(h, email) {
             </div>
         </div>`;
 
-    // Hide the image gracefully if it fails to load
+    // Just hide the photo if it cannot load
     $("#photo").addEventListener("error", e => {
         e.target.style.visibility = "hidden";
     }, { once: true });
@@ -119,7 +119,7 @@ function renderFooter(name) {
     $("#foot").textContent = `© ${new Date().getFullYear()} ${name}. All rights reserved.`;
 }
 
-/* ---------- Behaviour ---------- */
+// Page interactions
 function initTheme() {
     const root = document.documentElement;
     const btn = $("#theme");
@@ -197,7 +197,7 @@ function initBackToTop() {
     btn.addEventListener("click", () => scrollTo({ top: 0, behavior: "smooth" }));
 }
 
-/* ---------- Init ---------- */
+// Start everything after the page loads
 async function init() {
     initTheme();
 

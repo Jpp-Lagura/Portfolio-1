@@ -1,6 +1,4 @@
-/* ========================================
-   1. THEME VARIABLES
-======================================== */
+/* Colors and theme variables */
 :root {
     --bg: #f7f7f8;
     --card: #fff;
@@ -25,9 +23,7 @@
     --btn-text: #18181b;
 }
 
-/* ========================================
-   2. BASE
-======================================== */
+/* Basic page styles */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -88,9 +84,7 @@ img {
     border-radius: 8px;
 }
 
-/* ========================================
-   3. HEADER & NAV
-======================================== */
+/* Header and navigation */
 .header {
     position: sticky;
     top: 0;
@@ -166,9 +160,7 @@ img {
     display: none;
 }
 
-/* ========================================
-   4. HERO
-======================================== */
+/* Intro section */
 .hero {
     display: flex;
     align-items: center;
@@ -255,9 +247,7 @@ img {
     font-size: .7rem;
 }
 
-/* ========================================
-   5. CARDS & LAYOUT
-======================================== */
+/* Cards and column layouts */
 .card {
     background: var(--card);
     border: 1px solid var(--line);
@@ -298,7 +288,7 @@ img {
     margin-bottom: 0;
 }
 
-/* About */
+/* About section */
 #about-text p {
     font-size: .9rem;
     color: var(--muted);
@@ -308,7 +298,7 @@ img {
     margin-top: 12px;
 }
 
-/* Skills */
+/* Skills list */
 .badges {
     display: flex;
     flex-wrap: wrap;
@@ -349,9 +339,7 @@ img {
     stroke-linejoin: round;
 }
 
-/* ========================================
-   6. PROJECTS
-======================================== */
+/* Projects */
 .project-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -391,9 +379,7 @@ img {
     flex-wrap: wrap;
 }
 
-/* ========================================
-   7. EDUCATION
-======================================== */
+/* Education */
 .edu-item {
     position: relative;
     padding-left: 22px;
@@ -442,9 +428,7 @@ img {
     margin-top: 2px;
 }
 
-/* ========================================
-   8. CONTACT
-======================================== */
+/* Contact */
 .cta {
     font-size: .85rem;
     color: var(--muted);
@@ -557,7 +541,7 @@ a.row:hover {
     transform: scale(1.08);
 }
 
-/* Continuous horizontal scrolling */
+/* Keep the gallery moving */
 @keyframes gallery-scroll {
     from {
         transform: translateX(0);
@@ -569,7 +553,7 @@ a.row:hover {
 }
 
 
-/* Gallery loading indicator */
+/* Loading spinner */
 .gallery-loading {
     display: flex;
     flex-direction: column;
@@ -603,9 +587,7 @@ a.row:hover {
     color: var(--muted);
 }
 
-/* ========================================
-   9. FOOTER & BACK TO TOP
-======================================== */
+/* Footer and back-to-top button */
 .footer {
     text-align: center;
     padding: 10px 0 40px;
@@ -638,9 +620,7 @@ a.row:hover {
     margin-top: 40px;
 }
 
-/* ========================================
-   10. SCROLL REVEAL
-======================================== */
+/* Scroll reveal animation */
 .reveal {
     opacity: 0;
     transform: translateY(14px);
@@ -652,9 +632,7 @@ a.row:hover {
     transform: none;
 }
 
-/* ========================================
-   11. RESPONSIVE
-======================================== */
+/* Tablet and mobile */
 @media (max-width: 860px) {
     .two-col,
     .project-grid {
